@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Abhilash Joshi</title>
+  <script data-ad-client="ca-pub-8990197044921175" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link href="assets/img/favicon.png" rel="icon">
@@ -16,13 +17,23 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
+  <script>
+    // Select the button
+const btn = document.querySelector('.btn-toggle');
+
+// Listen for a click on the button
+btn.addEventListener('click', function() {
+  // Then toggle (add/remove) the .dark-theme class to the body
+  document.body.classList.toggle('dark-theme');  
+})
+  </script>
 </head>
 <body>
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
   <header id="header">
     <div class="d-flex flex-column">
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <br>
         <h1 class="text-light"><a href="index.html">Abhilash Joshi</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://github.com/alphaspear" class="google-plus"><i class="bx bxl-github"></i></a>
@@ -34,11 +45,12 @@
           <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span> Education And Certifications</span></a></li>
+          <li><a href="#intern"><i class="bx bx-file-blank"></i> <span> Internships</span></a></li>
           <li><a href="#services"><i class="bx bx-book-content"></i> SkillSet</a></li>
-          <li><a href="#portfolio"><i class="bx bx-server"></i> Projects</a></li>
+          <!--<li><a href="#portfolio"><i class="bx bx-server"></i> Projects</a></li>-->
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
           <!--li><a href="blog.iabhilashjoshi.xyz"><i class="bx bx-link"></i> Blog</a></li-->
-          <li><a href="assets/files/Abhilash Joshi CV.pdf"><i class="bx bx-link"></i> Download CV</a></li>
+          <li><a href="assets/files/Abhilash Joshi Resume.pdf" target="blank"><i class="bx bx-link"></i> Download Resume</a></li>
         </ul>
       </nav>
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -55,53 +67,36 @@
       <div class="container">
         <div class="section-title">
           <h2>About</h2>
-          <p>I am a computer science engineering student from Dehradun. I am a Technophile with good programming skills. Worked on frontend and backend development in Monolithic and Microservice architecture, Payment gateway (Stripe) and Linux System Administration and server Managment.</p>
         </div>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Personal Information</h3>
             <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> March 30, 2001</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.iabhilashjoshi.xyz</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91 81930 78390</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Dehradun</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 20</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelor's</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> iabhilashjoshi@gmail.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
-                </ul>
-              </div>
+            
+                <p>A technophile who loves to code and has a zest to learn and work on the
+                  latest technologies and gain deeper knowledge by working on various
+                  projects.</p>
+            
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!--vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
     <section id="resume" class="resume">
       <div class="container">
         <div class="section-title">
           <h2>Education And Certifications</h2>
         </div>
-
-
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-
-
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Computer Science &amp; Engineering</h4>
               <h5>2018 - Present</h5>
               <p><em>Graphic Era Hill University</em></p>
-              
             </div>
             <div class="resume-item">
               <h4>Intermediate</h4>
@@ -113,11 +108,6 @@
               <h5>2016</h5>
               <p><em>D. S. B. International Public School</em></p>             
             </div>
-            <div class="resume-item">
-              <h4> 	Certificate in advance computing</h4>
-              <h5>2015</h5>
-              <p><em>Netcomp Educational Institute</em></p>              
-            </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Certifications</h3>
@@ -125,15 +115,12 @@
               <h4>Artificial Intelligence</h4>
               <h5>2010</h5>
               <p><em>Udemy</em></p>
-         
             </div>
             <div class="resume-item">
               <h4>Cyber Security</h4>
               <h5>2020</h5>
               <p><em>Udemy</em></p>
-           
             </div>
-
           </div>
         </div>
 
@@ -142,7 +129,25 @@
 
       </div>
     </section>
-       
+    <!--vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
+    <section id="intern" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Internships</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="resume-item">
+              <h4>Oil and Natural Gas Corporation, Dehradun</h4>
+              <h5>June 2021 - August 2021</h5>
+              <p><em>Summer intern</em></p>
+              <p><em>Responsible for developing backend for a quiz system.</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->   
     
     <section id="services" class="services">
       <div class="container">
@@ -152,19 +157,16 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">Python</h4>
+            <h4 class="title">C</h4>
           </div>
-          <div class="col-lg-4 col-md-6 " data-aos="fade-up">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <h4 class="title">C++</h4>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <h4 class="title">C</h4>
+            <h4 class="title">Python</h4>
           </div>
           <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">HTML</h4>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">CSS</h4>
+            <h4 class="title">Java</h4>
           </div>
           <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
             <h4 class="title">JavaScript</h4>
@@ -173,35 +175,57 @@
             <h4 class="title">PHP</h4>
           </div>
           <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">MYSQL</h4>
+            <h4 class="title">Solidity</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">HTML</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">CSS</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">Node.js</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">React</h4>
           </div>
           <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
             <h4 class="title">Linux</h4>
           </div>
           <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">Apache</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <h4 class="title">NGINX</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
             <h4 class="title">Git</h4>
           </div>
           <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">Amazon Web Services(EC2,RDS)</h4>
+            <h4 class="title">MySQL</h4>
           </div>
           <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">Google Firebase</h4>
+            <h4 class="title">OracleDB</h4>
+          </div><div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">MariaDB</h4>
+          </div><div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">MongoDB</h4>
+          </div><div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">Amazon Web Services(EC2, RDS)</h4>
+          </div><div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">Android</h4>
+          </div><div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">Gjs</h4>
+          </div><div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+            <h4 class="title">Linux</h4>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">CryEngine</h4>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <h4 class="title">IoT</h4>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">Server Managment</h4>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
-            <h4 class="title">Linux System Administration</h4>
-          </div>
+          
+          
         </div>
       </div>
     </section>
+    
+    <!--
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
         <div class="section-title">
@@ -261,6 +285,7 @@
         </div>
       </div>
     </section>
+  -->
     <section id="contact" class="contact">
       <div class="container">
         <div class="section-title">
@@ -279,54 +304,18 @@
                 <h4>Email:</h4>
                 <p>iabhilashjoshi@gmail.com</p>
               </div>
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 81930 78390</p>
-              </div>
-              <iframe src="https://www.google.com/maps/embed/v1/view?zoom=13&center=30.2686%2C78.0071&key=AIzaSyCgFxRc6ECg_KF_5Qz5ggrmffk7yl2KI6k" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> 
+              <iframe src="https://www.google.com/maps/embed/v1/view?zoom=13&center=30.2686%2C78.0071&key=AIzaSyCeAN2xerM2b-4bsfOgXX9peVRzxRWxWfE" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> 
             </div>
           </div>
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <!--div class="error-message"></div-->
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-            
-          </div>
+          
         </div>
       </div>
     </section>
   <footer id="footer">
     <div class="container">    
       <div class="credits">
-        Last Updated on April 8,2020</a>
+       
+        <a>Last Updated on  August 15, 2021</a>
       </div>
     </div>
   </footer>
@@ -344,6 +333,7 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/js/main.js"></script>
-
+<!-- Start of CuterCounter Code -->
+<!-- End of CuterCounter Code -->
 </body>
 </html>

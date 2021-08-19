@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background-color: #000000;
 }
 
 a {
@@ -76,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #05386b;
   overflow-y: auto;
 }
 
@@ -218,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/aaaa.gif") top center;
   background-size: cover;
 }
 
@@ -301,7 +302,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #ffffff;
 }
 
 .section-title h2::after {
@@ -325,9 +326,14 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #ffffff;
 }
-
+.about p{
+  color:#3589ff
+}
+.about p{
+  color: white;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -340,7 +346,11 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: #ffffff;
+}
+
+.about li{
+    color: white;
 }
 
 .about .content p:last-child {
@@ -362,7 +372,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #ffffff;
   float: left;
 }
 
@@ -371,7 +381,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #ffffff;
   margin-left: 60px;
 }
 
@@ -380,7 +390,7 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #ffffff;
 }
 
 .facts .count-box a {
@@ -394,7 +404,7 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -442,13 +452,16 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #ffffff;
+}
+.resume p{
+  color: #3589ff
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #ffffff;
   position: relative;
 }
 
@@ -458,7 +471,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -492,14 +505,83 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #ffffff;
+}
+
+/*--------------------------------------------------------------
+# intern
+--------------------------------------------------------------*/
+.intern .intern-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.intern p{
+  color: #3589ff
+}
+
+.intern .intern-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #ffffff;
+  position: relative;
+}
+
+.intern .intern-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.intern .intern-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.intern .intern-item ul {
+  padding-left: 20px;
+}
+
+.intern .intern-item ul li {
+  padding-bottom: 10px;
+}
+
+.intern .intern-item:last-child {
+  padding-bottom: 0;
+}
+
+.intern .intern-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #ffffff;
 }
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio{
+  background: rgb(0, 0, 0);
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  background: rgb(0, 0, 0);
 }
 
 .portfolio #portfolio-flters {
@@ -507,7 +589,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: rgb(0, 0, 0);
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -517,32 +599,36 @@ section {
   display: inline-block;
   padding: 10px 15px 8px 15px;
   font-size: 14px;
+  background: rgb(0, 0, 0);
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #ffffff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
+  background: rgb(0, 0, 0);
 }
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
+  background: rgb(0, 0, 0);
 }
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
+  background: rgb(0, 0, 0);
   z-index: 1;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgb(0, 0, 0);
   position: absolute;
   left: 0;
   right: 0;
@@ -563,23 +649,26 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
+  background: rgb(0, 0, 0);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 28px;
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
+  background: rgb(209, 209, 209);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
+  background: rgb(0, 0, 0);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -588,11 +677,13 @@ section {
   right: 0;
   bottom: 0;
   opacity: 1;
+  background: rgba(255, 255, 255, 0.384);
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+  background: rgba(143, 30, 30, 0);
 }
 
 /*--------------------------------------------------------------
@@ -600,6 +691,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
+  color: rgb(233 236 239);
 }
 
 .services .icon {
@@ -650,108 +742,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  text-align: center;
-  min-height: 320px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
-  font-size: 26px;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 15px 15px;
-  padding: 20px;
-  background: #fff;
-  position: relative;
-  margin-bottom: 35px;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials .testimonial-item p::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 20px solid #fff;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
-  position: absolute;
-  bottom: -20px;
-  left: calc(50% - 20px);
-}
-
-.testimonials .owl-nav, .testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.testimonials .owl-dot.active {
-  background-color: #149ddd !important;
-}
-
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
-}
-
-/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  background: rgb(0, 0, 0);
 }
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -775,14 +775,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #ffffff;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #3589ff;
 }
 
 .contact .info .email p {
@@ -1076,7 +1076,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #000000;
 }
 
 #footer .copyright {
