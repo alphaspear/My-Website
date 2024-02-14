@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Abhilash Joshi</title>
+    <script data-ad-client="ca-pub-8990197044921175" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+    <header id="header">
+        <div class="d-flex flex-column">
+            <div class="profile">
+                <br>
+                <h1 class="text-light"><a href="index.html">Abhilash Joshi</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a href="https://github.com/alphaspear" class="google-plus"><i class="bx bxl-github"></i></a>
+                    <a href="https://in.linkedin.com/in/iabhilashjoshi" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+                    <li><a href="#resume"><i class="bx bx-file-blank"></i> <span> Education And Certifications</span></a></li>
+                    <li><a href="#intern"><i class="bx bx-file-blank"></i> <span> Internships</span></a></li>
+                    <li><a href="#services"><i class="bx bx-book-content"></i> SkillSet</a></li>
+                    <li><a href="#portfolio"><i class="bx bx-server"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+                    <!--li><a href="blog.iabhilashjoshi.xyz"><i class="bx bx-link"></i> Blog</a></li-->
+                    <li><a href="assets/files/Abhilash Joshi Resume.pdf" target="blank"><i class="bx bx-link"></i> Download Resume</a></li>
+                </ul>
+            </nav>
+            <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+        </div>
+    </header>
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1>Abhilash Joshi</h1>
+            <p>I'm <span class="typed" data-typed-items="Software Engineer,Technophile"></span></p>
+        </div>
+    </section>
+    <main id="main">
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                        <div class="row">
+
+                            <p>A technophile who loves to code and has a zest to learn and work on the latest technologies and gain deeper knowledge by working on various projects.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
+        <section id="resume" class="resume">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Education And Certifications</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>Computer Science &amp; Engineering</h4>
+                            <h5>2018 - Present</h5>
+                            <p><em>Graphic Era Hill University</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Intermediate</h4>
+                            <h5>2018</h5>
+                            <p><em>Sri Sai Baba International Public School</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4> Highschool</h4>
+                            <h5>2016</h5>
+                            <p><em>D. S. B. International Public School</em></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Certifications</h3>
+                        <div class="resume-item">
+                            <h4>Artificial Intelligence</h4>
+                            <h5>2010</h5>
+                            <p><em>Udemy</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Cyber Security</h4>
+                            <h5>2020</h5>
+                            <p><em>Udemy</em></p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+        <!--vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
+        <section id="intern" class="resume">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Internships</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <div class="resume-item">
+                            <h4>Oil and Natural Gas Corporation, Dehradun</h4>
+                            <h5>June 2021 - August 2021</h5>
+                            <p><em>Summer intern</em></p>
+                            <p><em>Responsible for developing backend for a quiz system.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-->
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Skillset</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">C</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                        <h4 class="title">C++</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                        <h4 class="title">Python</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Java</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">JavaScript</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">PHP</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Solidity</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">HTML</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">CSS</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Node.js</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">React</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Linux</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Apache</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                        <h4 class="title">NGINX</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Git</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">MySQL</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">OracleDB</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">MariaDB</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">MongoDB</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Amazon Web Services(EC2, RDS)</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Android</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Gjs</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box " data-aos="fade-up">
+                        <h4 class="title">Linux</h4>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+<!--
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Projects</h2>
+                </div>
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-web">Web Based Projects</li>
+                            <li data-filter=".filter-sys">System Based Projects</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="project1_portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="project2_portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-sys">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="project3_portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="project4_portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-sys">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="project5_portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+-->
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+                <div class="row" data-aos="fade-in">
+                    <div class="col-lg-5 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="icofont-google-map"></i>
+                                <h4>Location:</h4>
+                                <p>Clement Town, Dehradun, India</p>
+                            </div>
+                            <div class="email">
+                                <i class="icofont-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>iabhilashjoshi@gmail.com</p>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed/v1/view?zoom=13&center=30.2686%2C78.0071&key=AIzaSyCeAN2xerM2b-4bsfOgXX9peVRzxRWxWfE" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="credits">
+
+                    <a>Last Updated on  August 15, 2021</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Start of CuterCounter Code -->
+    <!-- End of CuterCounter Code -->
+</body>
+
+</html>
