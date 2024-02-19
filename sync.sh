@@ -1,10 +1,10 @@
 #!/bin/bash
 
-SRC_DIR="/home/iabhilashjoshi/abhi/lash/My-Website"
-DEST_DIR="/home/iabhilashjoshi/My-Website"
+SRC_DIR="/home/iabhilashjoshi/My-Website"
+DEST_DIR="/var/www/My-Website"
 
 sync_files() {
-    rsync -av --delete "$SRC_DIR/" "$DEST_DIR/"
+    sudo rsync -av --delete "$SRC_DIR/" "$DEST_DIR/"
 }
 
 echo "Synchronizing files..."
